@@ -1,0 +1,21 @@
+/Makefile.mk/1.2/Fri Feb  2 18:48:27 2007//
+/arcgen.c/1.1/Mon Oct 17 23:56:20 2005//
+/blockgen.c/1.1/Mon Oct 17 23:56:20 2005//
+/boxgen.c/1.1/Mon Oct 17 23:56:20 2005//
+/circgen.c/1.1/Mon Oct 17 23:56:20 2005//
+/for.c/1.1/Mon Oct 17 23:56:20 2005//
+/input.c/1.6/Mon Dec 25 17:48:04 2006//
+/linegen.c/1.2/Tue Oct 25 18:23:26 2005//
+/main.c/1.4/Sun Dec  4 23:16:02 2005//
+/misc.c/1.1/Mon Oct 17 23:56:20 2005//
+/movegen.c/1.1/Mon Oct 17 23:56:20 2005//
+/pic.1/1.1/Fri Feb  2 18:48:27 2007//
+/pic.h/1.4/Sun Dec  4 23:16:02 2005//
+/picl.l/1.7/Sun Aug  6 22:01:13 2006//
+/picy.y/1.2/Mon Nov 28 01:53:22 2005//
+/pltroff.c/1.2/Wed Feb  8 16:16:59 2006//
+/print.c/1.1/Mon Oct 17 23:56:20 2005//
+/symtab.c/1.1/Mon Oct 17 23:56:20 2005//
+/textgen.c/1.1/Mon Oct 17 23:56:20 2005//
+/version.c/1.16/Mon Dec 25 17:48:04 2006//
+D

@@ -1,0 +1,178 @@
+/* A Bison parser, made by GNU Bison 3.5.1.  */
+
+/* Bison interface for Yacc-like parsers in C
+
+   Copyright (C) 1984, 1989-1990, 2000-2015, 2018-2020 Free Software Foundation,
+   Inc.
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
+
+/* As a special exception, you may create a larger work that contains
+   part or all of the Bison parser skeleton and distribute that work
+   under terms of your choice, so long as that work isn't itself a
+   parser generator using the skeleton or a modified version thereof
+   as a parser skeleton.  Alternatively, if you modify or redistribute
+   the parser skeleton itself, you may (at your option) remove this
+   special exception, which will cause the skeleton and the resulting
+   Bison output files to be licensed under the GNU General Public
+   License without this special exception.
+
+   This special exception was added by the Free Software Foundation in
+   version 2.2 of Bison.  */
+
+/* Undocumented macros, especially those whose name start with YY_,
+   are private implementation details.  Do not rely on them.  */
+
+#ifndef YY_YY_Y_TAB_H_INCLUDED
+# define YY_YY_Y_TAB_H_INCLUDED
+/* Debug traces.  */
+#ifndef YYDEBUG
+# define YYDEBUG 0
+#endif
+#if YYDEBUG
+extern int yydebug;
+#endif
+
+/* Token type.  */
+#ifndef YYTOKENTYPE
+# define YYTOKENTYPE
+  enum yytokentype
+  {
+    CONTIG = 258,
+    QTEXT = 259,
+    SPACE = 260,
+    THIN = 261,
+    TAB = 262,
+    MATRIX = 263,
+    LCOL = 264,
+    CCOL = 265,
+    RCOL = 266,
+    COL = 267,
+    MARK = 268,
+    LINEUP = 269,
+    SUM = 270,
+    INT = 271,
+    PROD = 272,
+    UNION = 273,
+    INTER = 274,
+    LPILE = 275,
+    PILE = 276,
+    CPILE = 277,
+    RPILE = 278,
+    ABOVE = 279,
+    DEFINE = 280,
+    TDEFINE = 281,
+    NDEFINE = 282,
+    DELIM = 283,
+    GSIZE = 284,
+    GFONT = 285,
+    INCLUDE = 286,
+    FROM = 287,
+    TO = 288,
+    OVER = 289,
+    SQRT = 290,
+    SUP = 291,
+    SUB = 292,
+    SIZE = 293,
+    FONT = 294,
+    ROMAN = 295,
+    ITALIC = 296,
+    BOLD = 297,
+    FAT = 298,
+    UP = 299,
+    DOWN = 300,
+    BACK = 301,
+    FWD = 302,
+    LEFT = 303,
+    RIGHT = 304,
+    DOT = 305,
+    DOTDOT = 306,
+    HAT = 307,
+    TILDE = 308,
+    BAR = 309,
+    UNDER = 310,
+    VEC = 311,
+    DYAD = 312
+  };
+#endif
+/* Tokens.  */
+#define CONTIG 258
+#define QTEXT 259
+#define SPACE 260
+#define THIN 261
+#define TAB 262
+#define MATRIX 263
+#define LCOL 264
+#define CCOL 265
+#define RCOL 266
+#define COL 267
+#define MARK 268
+#define LINEUP 269
+#define SUM 270
+#define INT 271
+#define PROD 272
+#define UNION 273
+#define INTER 274
+#define LPILE 275
+#define PILE 276
+#define CPILE 277
+#define RPILE 278
+#define ABOVE 279
+#define DEFINE 280
+#define TDEFINE 281
+#define NDEFINE 282
+#define DELIM 283
+#define GSIZE 284
+#define GFONT 285
+#define INCLUDE 286
+#define FROM 287
+#define TO 288
+#define OVER 289
+#define SQRT 290
+#define SUP 291
+#define SUB 292
+#define SIZE 293
+#define FONT 294
+#define ROMAN 295
+#define ITALIC 296
+#define BOLD 297
+#define FAT 298
+#define UP 299
+#define DOWN 300
+#define BACK 301
+#define FWD 302
+#define LEFT 303
+#define RIGHT 304
+#define DOT 305
+#define DOTDOT 306
+#define HAT 307
+#define TILDE 308
+#define BAR 309
+#define UNDER 310
+#define VEC 311
+#define DYAD 312
+
+/* Value type.  */
+#if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
+typedef int YYSTYPE;
+# define YYSTYPE_IS_TRIVIAL 1
+# define YYSTYPE_IS_DECLARED 1
+#endif
+
+
+extern YYSTYPE yylval;
+
+int yyparse (void);
+
+#endif /* !YY_YY_Y_TAB_H_INCLUDED  */

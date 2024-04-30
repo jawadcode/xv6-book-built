@@ -39,7 +39,7 @@ PS=$(patsubst %,%.ps,$(ORDER))
 PDF=$(patsubst %,%.pdf,$(ORDER))
 DIT=$(patsubst %,%.dit,$(ORDER))
 
-export UCB = /usr/local/ucb
+export UCB = /usr/ucb
 
 all: book.pdf
 pdf: $(PDF)

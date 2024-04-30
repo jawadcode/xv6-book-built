@@ -1,18 +1,3 @@
-NOTE: We have stopped maintaining the x86 book for xv6 but have switched the book to RISC-V (see
-https://github.com/mit-pdos/xv6-riscv-book/).
+# xv6-book-built
 
----
-
-The book compiles using Heirloom Troff,
-an open source update of the original Unix troff.
-
-cvs -d :pserver:anonymous@heirloom.cvs.sourceforge.net:/cvsroot/heirloom co heirloom-doctools
-cd heirloom-doctools
-make
-sudo make INSTALL=install STRIP=strip install	# sic
-
-This will install the binaries in /usr/ucb, but
-you want to install them in /usr/local/ucb, which is
-what the run1 script expects.  Move the binaries or
-update PREFIX in mk.config in heirloom-doctools.
-
+This is a fork of mit-pdos/xv6-book built under GitHub Codespaces, including the PDF and all build artefacts.
