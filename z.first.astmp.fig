@@ -1,0 +1,86 @@
+x T ps
+x res 72000 1 1
+x init
+V0
+p1
+x font 1 R font/MinionPro-Regular.otf 4
+x X SupplyFont MinionPro-Regular font/MinionPro-Regular.otf
+x font 2 I font/MinionPro-It.otf 4
+x X SupplyFont MinionPro-It font/MinionPro-It.otf
+x font 3 B font/MinionPro-Bold.otf 4
+x X SupplyFont MinionPro-Bold font/MinionPro-Bold.otf
+x font 4 BI font/MinionPro-BoldIt.otf 4
+x X SupplyFont MinionPro-BoldIt font/MinionPro-BoldIt.otf
+x font 5 C font/LucidaSans-Typewriter83.afm 4
+x X SupplyFont LucidaSans-Typewriter83 font/LucidaSans-Typewriter83.pfa
+x font 6 H /usr/ucblib/doctools/font/devps/H.afm 4
+x font 7 HB /usr/ucblib/doctools/font/devps/HB.afm 4
+x font 8 HX /usr/ucblib/doctools/font/devps/HX.afm 4
+x font 9 S1 /usr/ucblib/doctools/font/devps/S1.afm 516
+x font 10 S /usr/ucblib/doctools/font/devps/S.afm 1028
+s10
+f1
+x X PaperSize 612000 792000 1
+x X LC_CTYPE en_US.UTF-8
+H90000
+V12000
+x X start 0
+x X Anchor 0,90000 fig-1-3
+wh3330
+x X PI:90000:0:432000:792000:fig/astmp.eps:219000u,393500u,0,19250u::
+n12000 0
+H90000
+f3
+V243400
+cF
+h5440ci
+h2970cg
+h4950cu
+h5550cr
+h3970ce
+wh7700c1
+h5000c-
+h3420c3
+f1
+h5000c.
+wh8410cL
+h5530ca
+h4390cy
+h4510co
+h4990cu
+h5190ct
+wh6380co
+h4990cf
+wh6590ca
+wh7720cv
+h4660ci
+h2670cr
+h3810ct
+h2950cu
+h5330ca
+h4390cl
+wh5860ca
+h4390cd
+h5260cd
+h5270cr
+h3580ce
+h4230cs
+h3620cs
+wh7000cs
+h3620cp
+h5290ca
+h4390cc
+h4240ce
+n12400 0
+H90000
+s12
+V257800
+Dl 432000 0 .
+n14400 0
+H90000
+V14400
+x X end 266800
+n14400 0
+x trailer
+V792000
+x stop

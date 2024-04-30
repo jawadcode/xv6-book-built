@@ -1,0 +1,183 @@
+x T ps
+x res 72000 1 1
+x init
+V0
+p1
+x font 1 R font/MinionPro-Regular.otf 4
+x X SupplyFont MinionPro-Regular font/MinionPro-Regular.otf
+x font 2 I font/MinionPro-It.otf 4
+x X SupplyFont MinionPro-It font/MinionPro-It.otf
+x font 3 B font/MinionPro-Bold.otf 4
+x X SupplyFont MinionPro-Bold font/MinionPro-Bold.otf
+x font 4 BI font/MinionPro-BoldIt.otf 4
+x X SupplyFont MinionPro-BoldIt font/MinionPro-BoldIt.otf
+x font 5 C font/LucidaSans-Typewriter83.afm 4
+x X SupplyFont LucidaSans-Typewriter83 font/LucidaSans-Typewriter83.pfa
+x font 6 H /usr/ucblib/doctools/font/devps/H.afm 4
+x font 7 HB /usr/ucblib/doctools/font/devps/HB.afm 4
+x font 8 HX /usr/ucblib/doctools/font/devps/HX.afm 4
+x font 9 S1 /usr/ucblib/doctools/font/devps/S1.afm 516
+x font 10 S /usr/ucblib/doctools/font/devps/S.afm 1028
+s10
+f1
+x X PaperSize 612000 792000 1
+x X LC_CTYPE en_US.UTF-8
+H72000
+V12000
+x X PDFMark: Author Russ Cox, Frans Kaashoek, Robert Morris
+wh3330
+x X PDFMark: Title xv6 - DRAFT as of April 30, 2024
+n12000 0
+H72000
+f3
+s20
+V240000
+h219530cx
+h9640cv
+h9300c6
+n24000 0
+H72000
+f1
+s18
+V278400
+h66231ca
+wh13896cs
+h6570ci
+h4806cm
+h14400cp
+h9324cl
+h4518ce
+h7542c,
+wh9144cU
+h12492cn
+h9810ci
+h4824cx
+h8496c-
+h6408cl
+h4536ci
+h4914ck
+h8748ce
+wh13644ct
+h5382ce
+h7740ca
+h7902cc
+h7506ch
+h9576ci
+h4806cn
+h9702cg
+wh14418co
+h8982cp
+h9594ce
+h7632cr
+h6678ca
+h7902ct
+h5580ci
+h4806cn
+h9702cg
+wh14418cs
+h6624cy
+h8244cs
+h6516ct
+h5382ce
+h7632cm
+n14400 0
+H72000
+s12
+V364800
+h210978cR
+h7200cu
+h6336cs
+h4344cs
+wh8400cC
+h8172co
+h5928cx
+n14400 0
+H72000
+V379200
+h195438cF
+h6144cr
+h4452ca
+h5268cn
+h6468cs
+wh8400cK
+h7932ca
+h5268ca
+h5268cs
+h4344ch
+h6360co
+h6228ce
+h5040ck
+n14400 0
+H72000
+V393600
+h198990cR
+h7488co
+h6060cb
+h6204ce
+h5088cr
+h4572ct
+wh7656cM
+h10380co
+h5988cr
+h4500cr
+h4500ci
+h3180cs
+n14400 0
+H72000
+V422400
+h163248cx
+h5664cv
+h5556c6
+h5760c-
+h4272cb
+h6204co
+h6228co
+h6048ck
+h5952c@
+h9036cp
+h6396cd
+h6312co
+h6108cs
+h4404c.
+h2736cc
+h5088cs
+h4476ca
+h5268ci
+h3276cl
+h2964c.
+h2736cm
+h9804ci
+h3072ct
+h3672c.
+h2736ce
+h5172cd
+h6192cu
+n14400 0
+H72000
+V508800
+h170814cD
+h8808cr
+h4452ca
+h5268cf
+h3636ct
+wh7656ca
+h5268cs
+wh8400co
+h5988cf
+wh7476cA
+h7800cp
+h6156cr
+h4500ci
+h3276cl
+wh7032c3
+h5760c0
+h5760c,
+wh6096c2
+h5760c0
+h5760c2
+h5760c4
+n14400 0
+x trailer
+V792000
+x stop
+p2

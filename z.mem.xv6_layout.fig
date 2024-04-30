@@ -1,0 +1,255 @@
+x T ps
+x res 72000 1 1
+x init
+V0
+p1
+x font 1 R font/MinionPro-Regular.otf 4
+x X SupplyFont MinionPro-Regular font/MinionPro-Regular.otf
+x font 2 I font/MinionPro-It.otf 4
+x X SupplyFont MinionPro-It font/MinionPro-It.otf
+x font 3 B font/MinionPro-Bold.otf 4
+x X SupplyFont MinionPro-Bold font/MinionPro-Bold.otf
+x font 4 BI font/MinionPro-BoldIt.otf 4
+x X SupplyFont MinionPro-BoldIt font/MinionPro-BoldIt.otf
+x font 5 C font/LucidaSans-Typewriter83.afm 4
+x X SupplyFont LucidaSans-Typewriter83 font/LucidaSans-Typewriter83.pfa
+x font 6 H /usr/ucblib/doctools/font/devps/H.afm 4
+x font 7 HB /usr/ucblib/doctools/font/devps/HB.afm 4
+x font 8 HX /usr/ucblib/doctools/font/devps/HX.afm 4
+x font 9 S1 /usr/ucblib/doctools/font/devps/S1.afm 516
+x font 10 S /usr/ucblib/doctools/font/devps/S.afm 1028
+s10
+f1
+x X PaperSize 612000 792000 1
+x X LC_CTYPE en_US.UTF-8
+H90000
+V12000
+x X start 0
+x X Anchor 0,90000 fig-2-2
+wh3330
+x X PI:90000:0:432000:792000:fig/xv6_layout.eps:319500u,291500u,0,70250u::
+n12000 0
+H90000
+f3
+V343900
+cF
+h5440ci
+h2970cg
+h4950cu
+h5550cr
+h3970ce
+wh9136c2
+h5000c-
+h3420c2
+f1
+h5000c.
+wh9846cL
+h5530ca
+h4390cy
+h4510co
+h4990cu
+h5190ct
+wh7816co
+h4990cf
+wh8026ct
+h3090ch
+h5300ce
+wh9016cv
+h4660ci
+h2670cr
+h3810ct
+h2950cu
+h5330ca
+h4390cl
+wh7296ca
+h4390cd
+h5260cd
+h5270cr
+h3580ce
+h4230cs
+h3620cs
+wh8436cs
+h3620cp
+h5290ca
+h4390cc
+h4240ce
+wh9016co
+h4990cf
+wh8026ca
+wh9157cp
+h5130cr
+h3580co
+h5190cc
+h4240ce
+h4230cs
+h3620cs
+wh8437ca
+h4390cn
+h5430cd
+wh10047ct
+h3090ch
+h5300ce
+wh9017cl
+h2550ca
+h4390cy
+h4510co
+h4990cu
+h5190ct
+wh7817co
+h4990cf
+wh8027ct
+h3090ch
+h5300ce
+wh9017cp
+h5180ch
+h5110cy
+h4580cs
+h3650ci
+h2660cc
+h4260ca
+h4390cl
+wh7297ca
+h4390cd
+h5260cd
+h5270cr
+h3580ce
+h4230cs
+h3620cs
+n12400 0
+H90000
+V356300
+cs
+h3620cp
+h5290ca
+h4390cc
+h4240ce
+h4190c.
+wh5205cN
+h7180co
+h4990ct
+h2990ce
+wh7705ct
+h3090ch
+h5310ca
+h4390ct
+wh6505ci
+h2670cf
+wh6715ca
+wh7845cm
+h8160ca
+h4390cc
+h4170ch
+h5320ci
+h2670cn
+h5430ce
+wh7705ch
+h5310ca
+h4390cs
+wh7125cm
+h8150co
+h4990cr
+h3580ce
+wh7705ct
+h3090ch
+h5310ca
+h4390cn
+wh8925c2
+wh8255cG
+h7150cb
+h4930cy
+h4600ct
+h2990ce
+wh7705co
+h4990cf
+wh6715cp
+h5180ch
+h5110cy
+h4580cs
+h3650ci
+h2660cc
+h4260ca
+h4390cl
+wh5985cm
+h8150ce
+h4240cm
+h8150co
+h4990cr
+h4000cy
+h3850c,
+wh5205cx
+h4720cv
+h4630c6
+wh8254cc
+h4260ca
+h4390cn
+wh8924cu
+h5280cs
+h3740ce
+wh7704co
+h4990cn
+h5520cl
+h2460cy
+wh8044ct
+h3090ch
+h5300ce
+wh7704cm
+h8150ce
+h4240cm
+h8150co
+h4990cr
+h4000cy
+n12400 0
+H90000
+V368700
+ct
+h3090ch
+h5310ca
+h4390ct
+wh6380Cfi
+h5230ct
+h3050cs
+wh7000cb
+h5170ce
+h4240ct
+h3070cw
+h6770ce
+h4310ce
+h4240cn
+wf5
+h8800cK
+h5020cE
+h5020cR
+h5020cN
+h5020cB
+h5020cA
+h5020cS
+h5020cE
+wf1
+h8350ca
+h4390cn
+h5430cd
+wf5
+h8610c0
+h5020cx
+h5020cF
+h5020cE
+h5020c0
+h5020c0
+h5020c0
+h5020c0
+h5020c0
+h5020c.
+n12400 0
+H90000
+f1
+s12
+V383100
+Dl 432000 0 .
+n14400 0
+H90000
+V14400
+x X end 392100
+n14400 0
+x trailer
+V792000
+x stop

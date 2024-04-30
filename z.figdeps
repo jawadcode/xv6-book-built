@@ -1,0 +1,14 @@
+title.dit: 
+contents.dit: 
+acks.dit: 
+unix.dit:  fig/os.t fig/api.t
+first.dit:  fig/mkernel.t fig/as.t fig/astmp.t fig/newkernelstack.t
+mem.dit:  fig/x86_pagetable.t fig/xv6_layout.t fig/processlayout.t
+trap.dit:  fig/intkstack.t fig/trapframe.t
+lock.dit:  fig/race.t fig/locktable.t
+sched.dit:  fig/switch.t fig/deadlock.t
+fs.dit:  fig/fslayer.t fig/fslayout.t fig/inode.t
+sum.dit: 
+apphw.dit:  fig/xeon.t
+appboot.dit:  fig/x86_translation.t fig/x86_seg.t
+index.dit: 

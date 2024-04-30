@@ -1,0 +1,28 @@
+z.title.first:
+	@echo 1 >$@
+z.contents.first: title.dit
+	@echo 1+$$(cat z.title.last) | bc >$@
+z.acks.first: z.contents.first
+	@echo 2+$$(cat z.contents.first) | bc >$@
+z.unix.first: acks.dit
+	@echo 1+$$(cat z.acks.last) | bc >$@
+z.first.first: unix.dit
+	@echo 1+$$(cat z.unix.last) | bc >$@
+z.mem.first: first.dit
+	@echo 1+$$(cat z.first.last) | bc >$@
+z.trap.first: mem.dit
+	@echo 1+$$(cat z.mem.last) | bc >$@
+z.lock.first: trap.dit
+	@echo 1+$$(cat z.trap.last) | bc >$@
+z.sched.first: lock.dit
+	@echo 1+$$(cat z.lock.last) | bc >$@
+z.fs.first: sched.dit
+	@echo 1+$$(cat z.sched.last) | bc >$@
+z.sum.first: fs.dit
+	@echo 1+$$(cat z.fs.last) | bc >$@
+z.apphw.first: sum.dit
+	@echo 1+$$(cat z.sum.last) | bc >$@
+z.appboot.first: apphw.dit
+	@echo 1+$$(cat z.apphw.last) | bc >$@
+z.index.first: appboot.dit
+	@echo 1+$$(cat z.appboot.last) | bc >$@
